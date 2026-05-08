@@ -7,9 +7,13 @@ def vähennyslasku(a, b):
 def kertolasku(a, b):
     return a * b
 
+def jakolasku(a, b):
+    return a / b
+
 
 print("Laskin v1.0")
 print("5 + 3 =", yhteenlasku(5, 3))
 print("10 - 4 =", vähennyslasku(10, 4))
 print("5 * 7 =", kertolasku(5, 7))
+print("20 / 4 =", jakolasku(20, 4))
 
